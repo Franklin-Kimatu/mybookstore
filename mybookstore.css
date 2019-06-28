@@ -1,0 +1,184 @@
+.one{
+	border:1px solid black;
+	height:200px;
+	width:200px;
+	border-radius: 5px;
+	position: relative;
+	
+}
+#third, #four, #five{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+ul > li{
+ 
+	display:inline-block;
+}
+nav > ul{
+	text-align: right;
+	margin-right:auto;
+	margin-left:auto;
+}
+ul > li > a{
+	margin-top:20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:5px;
+	font-size: 19px;	
+}
+ul > li > a:hover{
+	border:20px hidden ;
+	box-sizing: border-box;
+	border-radius: 20px;
+	box-shadow: 1px 2px 3px grey;
+	background-color: #0D315F;
+	color:rgb(255,255,255);
+}
+h4{
+	position: relative;
+	left:27%;
+	font-size:35px;
+	color:white;
+}
+h4:hover{
+	text-shadow:1px 1px 3px grey; 
+	color:orange;
+}
+html{
+	/*border:1px solid #0D315F*/
+	scroll-behavior: smooth;
+	background: lavender;
+	border-radius: 7px;
+}
+#first img{
+	position: relative;
+	left: 600px;
+	top: 100px;
+	height: 30px;
+	width: 30px;
+	background-color: #0D315F ;
+}
+#first{
+	/*position: relative;*/
+	display: flex;
+	width: 100%;
+	flex-direction: flex-end;
+	background-color: #0D315F;
+}
+#second img{
+	height: 90px;
+	width: 90px;
+	margin-left: 3%
+}
+#second{
+  /*margin-top:0px;*/
+	position: sticky;
+	display: flex;
+	background:linear-gradient(to bottom,#0D315F,#C1C2D6);
+	/*height: 100px;*/
+}
+
+#second>nav{
+  margin-left:20%;
+}
+
+nav ul li a{
+  padding:20px;
+}
+ a{ float: right;
+ 	text-align:right;
+ 	color: white;
+ 	font-size:19px;
+ }
+ .one >img {
+ 	height:200px;
+ 	width:200px;
+ 	margin-top:0;
+ 	margin-left:0;
+ 	border:1px solid;
+ 	border-radius: 5px;
+ }
+ .seven{
+ 	color:white;
+ 	font-size:20px;
+ 	text-decoration:none;
+ }
+ h3{
+ 	text-align:center;
+ 	font-size: 25px;
+ 	text-decoration: underline;
+ 	color:#0D315F;
+ }
+ button{
+ 	float:right;
+ 	background-color:#0D315F;
+ 	border-radius: 20px;
+ }
+.footer{
+	display: flex;
+ 	position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background:linear-gradient(to bottom, #C1C2D6,#0D315F);
+  color: white;
+  text-align: center;
+  border-left:1px solid #0D315F;
+  border-bottom: 1px solid #0D315F;
+  border-right:1 px solid #0D315F;
+  border-radius:7px;
+ }
+ p{
+ 	margin: auto;
+ 	text-align: center;
+ }
+ body{
+ 	overflow-x: hidden;
+ 	width:100%;
+ 	margin:auto;
+ 	border:1px solid #0D315F;
+ 	border-radius:7px;
+ }
+ .eleven{
+ 	color:#0D315F;
+ 	font-size:19px;
+ }
+ #twenty{
+ 	border:1px solid #0D315F;
+ 	border-radius:5px 30px 5px;
+ 	background-color: #0D315F;
+ 	float:right;
+ 	color:white;
+ 	font-size:20px;
+ 	text-align: center;
+ 	height:100px;
+ 	width:200px;
+ }
+
+ #aboutus{
+   background-image:url('https://media1.popsugar-assets.com/files/thumbor/Qw6XR8secoChgUsrY7Pch0VsL8U/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/11/19/292/n/1922283/2de90caf2199729e_MCDINGO_EC036/i/book-you-see-someone-reading-TV-movie.jpg');
+   width:100%;
+   height:400px;
+   background-repeat:no-repeat;
+   background-size:cover;
+   color:#ffffff;
+   position:relative;
+   top:0;
+ }
+ #overlay{
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index:2;
+   height:100%;
+   
+ }
+ .aboutus{
+   position:relative;
+   left:40%;
+ }
+ .description{
+   font-family:sans-serif;
+   font-size:24px;
+ }
